@@ -26,18 +26,18 @@ unggim-dt:
     	] ;
     dct:modified "2020-10-26"^^xsd:date ;
     dct:language "en"^^xsd:language ;
-    vann:preferredNamespaceUri "http://purl.org/eis/vocab/unggim-data-themes#";
+    vann:preferredNamespaceUri "https://linkeddataops.adaptcentre.ie/vocabularies/unggim-data-themes#";
 	vann:preferredNamespacePrefix "unggim-dt";
-	foaf:homepage <http://purl.org/eis/vocab/unggim-data-themes> .
+	foaf:homepage <https://linkeddataops.adaptcentre.ie/vocabularies/unggim-data-themes> .
 
 unggim-dt:DataTheme
 	a	skos:Concept ;
-	skos:topConceptOf <http://purl.org/eis/vocab/unggim-data-themes#>; #top concept of the scheme
+	skos:topConceptOf <https://linkeddataops.adaptcentre.ie/vocabularies/unggim-data-themes#>; #top concept of the scheme
 	skos:note "This is the head theme to cover all the data themes" ;
 	skos:prefLabel	"Data Theme"@en .
 
 <http://osi.ie/prime2> a dcat:Catalog ;
-dcat:themeTaxonomy <http://purl.org/eis/vocab/unggim-data-themes#>.
+dcat:themeTaxonomy <https://linkeddataops.adaptcentre.ie/vocabularies/unggim-data-themes#>.
 
 unggim-dt:GCRF
 	a skos:Concept ;
